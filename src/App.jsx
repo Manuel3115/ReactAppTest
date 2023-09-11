@@ -10,11 +10,11 @@ import './App.css'
 function App() {
 
   return (
-    <div id="body"> 
-      <Header/>
-      <Employees/>
-      <Footer/>
-     </div>
+    <div id="body">
+      <Header />
+      <Employees/>      
+      <Footer />
+    </div>
   )
 }
 

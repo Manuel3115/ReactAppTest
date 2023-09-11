@@ -2,9 +2,21 @@ const Header =()=> {
 
 
 return (
-    <header> 
-    <h1 className="mt-4 p5 bg-primary text-white rounded"> header </h1>
-    </header>
+    <div className="container text-center"> 
+         <div className="row"> 
+             <h1> REAL ESTATE </h1>
+         </div>
+        
+        <div className="row border border-dark" style={{height:50}}> 
+            <div className="col-3"><span className="card"> Home </span></div>  
+            <div className="col-3"><span className="card"> Houses </span> </div>
+            <div onClick className="col-3"><span className="card"> Brokers </span> </div>
+            <div className="col-3"><span className="card"> Contact us </span> </div>  
+
+        </div>
+        
+
+    </div>
 )
 
 }
